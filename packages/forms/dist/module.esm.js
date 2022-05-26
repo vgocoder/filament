@@ -39903,6 +39903,9 @@ var markdown_editor_default = (Alpine) => {
             });
           }
         });
+        if (this.tab === "preview") {
+          this.editor.togglePreview();
+        }
         this.editor.codemirror.on("change", () => {
           this.isStateBeingUpdated = true;
           this.state = this.editor.value();
