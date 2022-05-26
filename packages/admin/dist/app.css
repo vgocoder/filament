@@ -2305,35 +2305,35 @@ span[data-img-src]::after {
   display: none;
 }
 .EasyMDEContainer .CodeMirror{
-  height: 100% !important;
-  min-height: 100% !important;
-  width: 100% !important;
-  border-radius: 0.5rem !important;
-  border-style: none !important;
+  height: 100%;
+  min-height: 100%;
+  width: 100%;
+  border-radius: 0.5rem;
+  border-style: none;
 }
 .EasyMDEContainer .CodeMirror .CodeMirror-scroll{
-  white-space: pre-wrap !important;
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
-  font-size: 0.875rem !important;
-  line-height: 1.25rem !important;
-  letter-spacing: 0em !important;
+  white-space: pre-wrap;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  letter-spacing: 0em;
 }
 .EasyMDEContainer .cm-header{
-  font-size: 0.875rem !important;
-  line-height: 1.25rem !important;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 .EasyMDEContainer .cm-comment{
-  background-color: inherit !important;
-  --tw-text-opacity: 1 !important;
-  color: rgb(31 41 55 / var(--tw-text-opacity)) !important;
+  background-color: inherit;
+  --tw-text-opacity: 1;
+  color: rgb(31 41 55 / var(--tw-text-opacity));
 }
-.EasyMDEContainer .editor-toolbar.disabled-for-preview + .CodeMirror > :not(.editor-preview-full) {
+.EasyMDEContainer .editor-toolbar.disabled-for-preview + .CodeMirror > :not(.editor-preview-full){
   display: none;
 }
-.EasyMDEContainer .editor-preview-full {
+.EasyMDEContainer .editor-preview-full{
+  position: relative;
   height: auto;
   overflow: visible;
-  position: relative;
 }
 
 /* packages/forms/resources/css/components/rich-editor.css */
