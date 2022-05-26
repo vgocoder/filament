@@ -2304,6 +2304,50 @@ span[data-img-src]::after {
 .EasyMDEContainer .editor-toolbar{
   display: none;
 }
+.EasyMDEContainer .CodeMirror{
+  height: 100% !important;
+  min-height: 100% !important;
+  width: 100% !important;
+  border-radius: 0.5rem !important;
+  border-width: 1px !important;
+  --tw-border-opacity: 1 !important;
+  border-color: rgb(209 213 219 / var(--tw-border-opacity)) !important;
+  caret-color: #000 !important;
+  --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05) !important;
+  --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color) !important;
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow) !important;
+  transition-property: color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter !important;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter !important;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter !important;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1) !important;
+  transition-duration: 75ms !important;
+}
+.EasyMDEContainer .CodeMirror:focus{
+  --tw-border-opacity: 1 !important;
+  border-color: rgb(234 179 8 / var(--tw-border-opacity)) !important;
+  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color) !important;
+  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color) !important;
+  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000) !important;
+  --tw-ring-inset: inset !important;
+  --tw-ring-opacity: 1 !important;
+  --tw-ring-color: rgb(202 138 4 / var(--tw-ring-opacity)) !important;
+}
+.EasyMDEContainer .CodeMirror .CodeMirror-scroll{
+  white-space: pre-wrap !important;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
+  font-size: 0.875rem !important;
+  line-height: 1.25rem !important;
+  letter-spacing: 0em !important;
+}
+.EasyMDEContainer .cm-header{
+  font-size: 0.875rem !important;
+  line-height: 1.25rem !important;
+}
+.EasyMDEContainer .cm-comment{
+  background-color: inherit !important;
+  --tw-text-opacity: 1 !important;
+  color: rgb(31 41 55 / var(--tw-text-opacity)) !important;
+}
 
 /* packages/forms/resources/css/components/rich-editor.css */
 .dark .trix-button{
@@ -4373,9 +4417,6 @@ select{
 .whitespace-pre-wrap{
   white-space: pre-wrap;
 }
-.break-words{
-  overflow-wrap: break-word;
-}
 .rounded-2xl{
   border-radius: 1rem;
 }
@@ -5239,11 +5280,6 @@ select{
 .focus\:border-primary-500:focus{
   --tw-border-opacity: 1;
   border-color: rgb(234 179 8 / var(--tw-border-opacity));
-}
-
-.focus\:border-primary-300:focus{
-  --tw-border-opacity: 1;
-  border-color: rgb(253 224 71 / var(--tw-border-opacity));
 }
 
 .focus\:bg-white:focus{
