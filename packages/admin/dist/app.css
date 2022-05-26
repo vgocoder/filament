@@ -3998,9 +3998,6 @@ select{
 .min-h-screen{
   min-height: 100vh;
 }
-.min-h-full{
-  min-height: 100%;
-}
 .min-h-\[56px\]{
   min-height: 56px;
 }
@@ -4211,9 +4208,6 @@ select{
 .cursor-wait{
   cursor: wait;
 }
-.resize-none{
-  resize: none;
-}
 .resize{
   resize: both;
 }
@@ -4413,9 +4407,6 @@ select{
 }
 .whitespace-nowrap{
   white-space: nowrap;
-}
-.whitespace-pre-wrap{
-  white-space: pre-wrap;
 }
 .rounded-2xl{
   border-radius: 1rem;
@@ -4798,9 +4789,6 @@ select{
 .tracking-wider{
   letter-spacing: 0.05em;
 }
-.tracking-normal{
-  letter-spacing: 0em;
-}
 .tracking-wide{
   letter-spacing: 0.025em;
 }
@@ -4959,9 +4947,6 @@ select{
 .placeholder-gray-400::placeholder{
   --tw-placeholder-opacity: 1;
   color: rgb(156 163 175 / var(--tw-placeholder-opacity));
-}
-.caret-black{
-  caret-color: #000;
 }
 .opacity-0{
   opacity: 0;
