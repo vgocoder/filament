@@ -2348,6 +2348,14 @@ span[data-img-src]::after {
   --tw-text-opacity: 1 !important;
   color: rgb(31 41 55 / var(--tw-text-opacity)) !important;
 }
+.EasyMDEContainer .editor-toolbar.disabled-for-preview + .CodeMirror > :not(.editor-preview-full) {
+  display: none;
+}
+.EasyMDEContainer .editor-preview-full {
+  height: auto;
+  overflow: visible;
+  position: relative;
+}
 
 /* packages/forms/resources/css/components/rich-editor.css */
 .dark .trix-button{
